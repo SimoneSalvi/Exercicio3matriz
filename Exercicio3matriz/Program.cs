@@ -34,6 +34,9 @@
         //  matriz original[linha,coluna]
         // matriz inversa[i,j]
 
+        //forma altrnativa, dentro do for, usar somente os indices da matriz principal no cabeçalho e a formula:
+        //matInversa[mat.GetLength(0)-1-linha, mat.GetLength(1)-1-coluna] = mat[linha,coluna];
+
         for (int linha = 0,  i = 2; linha < 3; linha++, i--)
         {
             for (int coluna = 0, j = 2; coluna < 3; coluna++, j--)
