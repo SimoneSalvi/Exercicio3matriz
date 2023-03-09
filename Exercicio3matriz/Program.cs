@@ -34,8 +34,6 @@
         //  matriz original[linha,coluna]
         // matriz inversa[i,j]
 
-        // mat.GetLength(0 ou 1)     retorna o comprimento 
-
         for (int linha = 0,  i = 2; linha < 3; linha++, i--)
         {
             for (int coluna = 0, j = 2; coluna < 3; coluna++, j--)
